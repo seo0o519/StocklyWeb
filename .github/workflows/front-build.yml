@@ -26,11 +26,10 @@ jobs:
         run: npm run build
 
         
-# 2. Push to Another Repository Job - 메인 브랜치에서만 수행
+# 2. Push to Another Repository Job
   push-to-another-repo:
     runs-on: ubuntu-latest
-    needs: build  # 빌드가 완료된 후 실행
-    if: github.ref == 'refs/heads/main'  # 메인 브랜치일 때만 실행
+    # needs: build  # 빌드가 완료된 후 실행
 
     steps:
       - name: Checkout code
@@ -49,7 +48,8 @@ jobs:
           destination-github-username: sykang519
           destination-repository-name: StocklyFrontend
           user-email: ${{ secrets.EMAIL }}
-          commit-message: ${{ github.event.commits[0].message }}
+          commit-message: |
+            ${{ github.event.head_commit.message || 'feat: update repository' }}
           target-branch: main
 
       - name: Test get variable exported by push-to-another-repository
