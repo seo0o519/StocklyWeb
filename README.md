@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/897dae5d-8eb1-4055-881e-70354f0832f5
 # 📊 Stockly
 
 <div align="center">
