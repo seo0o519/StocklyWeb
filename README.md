@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/897dae5d-8eb1-4055-881e-70354f0832f5
 # 📊 Stockly
 
 <div align="center">
@@ -90,7 +92,32 @@ https://docs.google.com/spreadsheets/d/1U215_Mel70mujcQGGkk4Bi_EC_e49PN1USf27GLK
 
 
 # 🌈 APP DEMO
-
+<table>
+    <tr>
+      <th>회원가입/로그인 페이지</th>
+        <th>메인 주식 차트 페이지</th>
+    </tr>
+    <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/d156d548-a4c8-4304-8227-ff46a300d8f8" controls="controls" width="100%"></video>
+      </td>
+        <td>
+         <video src="https://github.com/user-attachments/assets/3e09937b-b84d-44aa-9937-6c77876cc381" controls="controls" width="100%"></video>
+      </td>
+    </tr>
+    <tr>
+      <th>매수/매도 페이지</th>
+      <th>마이 페이지</th>
+    </tr>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/08c7a97f-9e24-4b5a-9dd2-b124bc204ef8" controls="controls" width="100%"></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/9ea2d108-ad12-4210-a925-01fa9e5606b0" controls="controls" width="100%"></video>
+      </td>
+    </tr>
+  </table>
 
 # ⚙ System Architecture
 <img src="https://github.com/user-attachments/assets/e8342bf3-88d3-4cf6-85d5-215808964a5a">
